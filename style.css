@@ -1,0 +1,93 @@
+/*Inicio*/
+/*Aplicando a fonte no geral*/
+*{
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+/*Corpo da página*/
+body{
+    background-color: #27282D;
+}
+
+/*Estilizando a logo da danki-code*/
+.logo img{
+    display: flex;
+    max-width: 50%;
+    height: 200px;
+    margin: auto;
+}
+
+/*Sessão principal*/
+.container{
+    background-color: #27282D;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border-radius: 30px;
+    position: relative;
+    bottom: 40px;
+}
+
+/*Deixando o formulario em coluna*/
+.container form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/*Estilizando os inputs*/
+form .nome,.email{
+    width: 40%;
+    margin: 0 auto;
+    height: 40px;
+    border-radius: 30px;
+    text-align: left;
+    border: 0cm;
+    padding-left: 10px;
+}
+
+/*Textarea*/
+#textarea{
+    resize: vertical;
+    border-radius: 30px;
+    width: 40%;
+    height: 120px;
+    margin: auto;
+    padding: 10px;
+    border: 0cm;
+}
+
+/*Estilizando o botão "Enviar"*/
+.submit{
+    width: 20%;
+    margin: 0 auto;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #6055A3;
+    color: white;
+    border: 0cm;
+    margin-bottom: 20px;
+}
+
+/*Estilizando a mensagem de erro*/
+.erro{
+    margin: auto;
+    text-align: center;
+}
+
+/*Repreencher formulario*/
+.preencher_novamente{
+    margin: auto;
+    position: relative;
+    top: 30px;
+    display: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #6055A3;
+    color: white;
+    border: 0cm;
+}
+/*FIM*/

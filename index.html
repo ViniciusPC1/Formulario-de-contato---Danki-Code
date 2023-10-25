@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/style.css"><!--linkando o arquivo .css-->
+        <script src="/script.js" defer></script><!--linkando o arquivo .js-->
+        <title>formulario de contato (DANKI-CODE)</title>
+    </head>
+
+    <body>
+        <!--Sessão principal-->
+        <section class="container">
+
+            <!--Div da Logo da danki-code-->
+            <div class="logo">
+                <!--Logo-->
+                <img src="/img/logo_danki.jpg">
+            </div>
+
+            <!--Formulário-->
+            <form onsubmit="return false;">
+                <!--Área do nome-->
+                <input type="text" class="nome" placeholder="Seu nome">
+
+                <!--Área do email-->
+                <input type="text" class="email" placeholder="Seu email">
+
+                <!--Área da mensagem-->
+                <textarea name="textarea" id="textarea" placeholder="Sua mensagem:"></textarea>
+
+                <!--Botão Enviar (Para enviar o formulário)-->
+                <input type="submit" class="submit">
+            </form><!--Fim do formulário-->
+            <!--mensagem de erro-->
+            <h5 class="erro"></h5>
+            <input type="button" value="Preencher novamente" class="preencher_novamente">
+        </section><!--Fim da sessão-->
+    </body>
+</html>
